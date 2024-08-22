@@ -1,0 +1,5 @@
+- id: is-executable
+  name: is-executable
+  description: 'Checks if files are marked as executable (755)'
+  entry: is-executable
+  language: python

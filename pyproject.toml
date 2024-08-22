@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "is-executable"
+version = "0.1.0"
+description = ""
+authors = ["Jens Kürten <jens.kuerten@contact-software.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+is-executable = 'is_executable.main:main'
