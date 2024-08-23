@@ -7,6 +7,7 @@ import subprocess  # nosec
 import sys
 import os.path
 
+
 def is_executable_with_git(filepath):
     """Check if a file is executable using Git."""
 
